@@ -1,0 +1,19 @@
+{
+  "traits": [
+    {
+      "id": 0,
+      "name": "Mark",
+      "strangeTrait": "can dance like a polar bear"
+    },
+    {
+      "id": 1,
+      "name": "Karl",
+      "strangeTrait": "speaks like a wizard"
+    },
+    {
+      "id": 2,
+      "name": "James",
+      "strangeTrait": "sounds like a dead badger"
+    }
+  ]
+}
