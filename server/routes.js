@@ -14,7 +14,7 @@ async function readJsonFile(dataPath) {
     const collectionOfTraits = json.traits.map((trait) => {
       return `${trait.id}: ${trait.name} ${trait.strangeTrait}`
     })
-    console.log(collectionOfTraits)
+    // console.log(collectionOfTraits)
     return collectionOfTraits
   } catch (err) {
     console.error(`Error reading file from disk: ${err}`)
