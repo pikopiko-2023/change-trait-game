@@ -14,6 +14,16 @@
       "id": 2,
       "name": "Henry",
       "strangeTrait": "loves to eat socks"
+    },
+    {
+      "id": 3,
+      "name": "Bob",
+      "strangeTrait": "has a circular eyebrow"
+    },
+    {
+      "id": 4,
+      "name": "Albert",
+      "strangeTrait": "is really loud"
     }
   ]
 }

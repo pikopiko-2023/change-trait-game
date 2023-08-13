@@ -44,12 +44,6 @@ router.post('/actionThing', async (req, res) => {
       strangeTrait: req.body.strait,
     }
 
-    // // Check if id is provided
-    // if (typeof formData.id !== 'number') {
-    //   res.status(400).send('ID must be provided and be a number.')
-    //   return
-    // }
-
     // Read the current contents of the JSON file
     const fileContents = await fs.readFile(dataPath, 'utf8')
     const currentData = JSON.parse(fileContents)
